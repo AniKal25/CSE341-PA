@@ -4,7 +4,8 @@
   "description": "CSE 341 Personal Assignment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/AniKal25/CSE341-PA/issues"
   },
-  "homepage": "https://github.com/AniKal25/CSE341-PA#readme"
+  "homepage": "https://github.com/AniKal25/CSE341-PA#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
